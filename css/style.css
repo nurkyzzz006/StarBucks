@@ -79,7 +79,7 @@ p {
 .header a {
   font-size: clamp(0.5rem, 0.25rem + 1.25vw, 1.188rem);
 }
-.menu{
+.menu {
   display: none;
 }
 .header h1 span {
@@ -127,4 +127,52 @@ p {
 .image img {
   width: 100%;
 }
+/* fast */
+.fast {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-block: 100px;
+}
+.fast-block {
+  width: 1100px;
+  height: 361px;
+  background: white;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 250px;
+  gap: 15px;
+  h2 {
+    color: black;
+    text-align: center;
+  }
+  p {
+    color: rgba(0, 0, 0, 0.747);
+    text-align: center;
+    line-height: 25px;
+  }
+}
+
+.circle {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background: rgb(43, 161, 100);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circle img {
+  width: 100%;
+}
+
+/* fast */
 /* CAFE */
