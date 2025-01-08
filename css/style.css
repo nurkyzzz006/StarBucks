@@ -55,9 +55,9 @@ button:hover {
 p {
   font-size: clamp(0.5rem, 0.227rem + 1.36vw, 1.25rem);
   font-weight: 400;
-  /* line-height: 32.69px; */
-  letter-spacing: -0.02em;
-  color: rgba(255, 255, 255, 0.827);
+  line-height: 18.69px;
+  letter-spacing: 0.08em;
+  color: rgba(255, 255, 255, 0.758);
 }
 /* HEADER */
 #header {
@@ -78,6 +78,9 @@ p {
 }
 .header a {
   font-size: clamp(0.5rem, 0.25rem + 1.25vw, 1.188rem);
+}
+.menu{
+  display: none;
 }
 .header h1 span {
   font-size: clamp(1.031rem, 0.554rem + 2.39vw, 2.344rem);

@@ -24,17 +24,53 @@
   }
 }
 @media (max-width: 580px) {
+  #cafe {
+    padding-block: 0px;
+  }
   .cafe {
     flex-direction: column-reverse;
     gap: 30px;
   }
+  .cafe-text {
+    max-width: 380px;
+    margin-inline-end: auto;
+  }
   .header h3 {
-    font-size: clamp(1.25rem, 1.023rem + 1.14vw, 1.875rem);
+    font-size: clamp(1.125rem, 0.852rem + 1.36vw, 2.875rem);
+  }
+  .header a {
+    display: none;
+  }
+  .head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .menu {
+    display: block;
+  }
+  .menu a {
+    background: linear-gradient(267.2deg, #237249 3.05%, #35c66b 75.72%);
+    color: transparent;
+    background-clip: text;
+    font-size: 30px;
   }
   h1 {
-    font-size: clamp(2.813rem, 2.472rem + 1.7vw, 3.75rem);
+    font-size: clamp(2.113rem, 2.472rem + 1.7vw, 3.45rem);
   }
   h1 span {
     font-size: clamp(2.813rem, 2.472rem + 1.7vw, 3.75rem);
   }
+  p {
+    font-size: clamp(0.688rem, 0.597rem + 0.45vw, 0.938rem);
+  }
+  .k{
+    gap: 45px;
+  }
+  .k div span{
+    font-size: 35px;
+  }
+button{
+    padding: 6px 50px;
+}
 }
