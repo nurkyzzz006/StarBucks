@@ -76,7 +76,9 @@ p {
   background-clip: text;
   font-weight: 800;
 }
-
+.header a {
+  font-size: clamp(0.5rem, 0.25rem + 1.25vw, 1.188rem);
+}
 .header h1 span {
   font-size: clamp(1.031rem, 0.554rem + 2.39vw, 2.344rem);
   font-weight: 800;
@@ -91,11 +93,11 @@ p {
 }
 .cafe {
   display: flex;
-  align-items: start;
+  align-items: center;
   justify-content: space-between;
 }
 .cafe-text {
-  max-width: 560px;
+  max-width: 555px;
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -120,6 +122,6 @@ p {
 }
 
 .image img {
-  width: 90%;
+  width: 100%;
 }
 /* CAFE */

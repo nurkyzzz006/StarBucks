@@ -1,0 +1,40 @@
+@media (max-width: 900px) {
+  .cafe-text {
+    gap: 35px;
+    max-width: 505px;
+  }
+}
+@media (max-width: 700px) {
+  .cafe-text {
+    gap: 28px;
+  }
+  button {
+    padding: 5px 40px;
+  }
+}
+@media (max-width: 610px) {
+  .cafe-text {
+    gap: 27px;
+  }
+  .k {
+    gap: 40px;
+  }
+  button {
+    padding: 4px 38px;
+  }
+}
+@media (max-width: 580px) {
+  .cafe {
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+  .header h3 {
+    font-size: clamp(1.25rem, 1.023rem + 1.14vw, 1.875rem);
+  }
+  h1 {
+    font-size: clamp(2.813rem, 2.472rem + 1.7vw, 3.75rem);
+  }
+  h1 span {
+    font-size: clamp(2.813rem, 2.472rem + 1.7vw, 3.75rem);
+  }
+}
