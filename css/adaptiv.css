@@ -90,7 +90,8 @@
     font-size: clamp(1.25rem, 0.909rem + 1.7vw, 2.188rem);
   }
   button {
-    padding: 6px 50px;
+    padding: 6px 47px;
+    font-size: clamp(0.625rem, 0.489rem + 0.68vw, 1rem);
   }
   .fast-block{
     width: 270px;
@@ -103,5 +104,10 @@
     p{
       line-height: 20px;
     }
+  }
+}
+@media(max-width:500px){
+  button{
+padding: 4px 40px;
   }
 }
