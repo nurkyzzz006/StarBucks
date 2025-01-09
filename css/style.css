@@ -55,17 +55,17 @@ button:hover {
 p {
   font-size: clamp(0.5rem, 0.227rem + 1.36vw, 1.25rem);
   font-weight: 400;
-  line-height: 18.69px;
+  line-height: 26.69px;
   letter-spacing: 0.08em;
   color: rgba(255, 255, 255, 0.758);
 }
 /* HEADER */
 #header {
   padding-block: 20px;
-  position: sticky;
+  /* position: sticky;
   top: 0;
 
-  backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px); */
 }
 .header {
   display: flex;
@@ -187,26 +187,21 @@ p {
   align-items: center;
   justify-content: space-between;
 }
-.make img {
-  width: 100%;
-}
-.make-img {
-  width: 100%;
-  position: relative;
-}
-.btn-make{
-  position: absolute;
-  button{
-    padding: 2px 10px;
-    font-size: clamp(0.625rem, 0.307rem + 1.59vw, 1rem);
-    a{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      ion{
-
-      }
-    }
+.make-text {
+  max-width: 490px;
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  p {
+    font-size: clamp(0.688rem, 0.574rem + 0.57vw, 1rem);
   }
 }
+.make img{
+  width: 60%;
+}
+.make-image img {
+  width: 85%;
+}
+
+
 /* MAKE */
