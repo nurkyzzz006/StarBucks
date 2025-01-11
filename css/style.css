@@ -275,3 +275,19 @@ p {
 }
 
 /* PRODUCT */
+
+
+/* EVENT */
+
+.event-text{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-inline-start: auto;
+  gap: 30px;
+  p{
+    max-width: 600px;
+    line-height: 30px;
+  }
+}
+/* EVENT */

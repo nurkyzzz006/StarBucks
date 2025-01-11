@@ -7,6 +7,9 @@
     height: 540px;
     padding: 28px;
   }
+  .event-text{
+    max-width: 580px;
+  }
 }
 @media(max-width:800px){
   .block{
@@ -177,6 +180,14 @@ line-height: 20px;
   .circleIm{
     bottom: 210px;
     left: -13px;
+  }
+  .event-text{
+    flex-direction: column-reverse;
+  max-width: 300px;
+  justify-content: center;
+  h1{
+    margin-inline-end: auto;
+  }
   }
 }
 @media(max-width:500px){
