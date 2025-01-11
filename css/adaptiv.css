@@ -51,6 +51,9 @@ line-height: 20px;
   bottom: 230px;
   left: -10px;
 }
+.contact-text{
+  gap: 30px;
+}
 }
 @media (max-width: 610px) {
   .cafe-text {
@@ -86,6 +89,9 @@ line-height: 20px;
   .circleIm{
     bottom: 225px;
     left: -13px;
+  }
+  .contact-text{
+    gap: 25px;
   }
 }
 
@@ -188,6 +194,13 @@ line-height: 20px;
   h1{
     margin-inline-end: auto;
   }
+  }
+  .contact{
+    flex-direction: column-reverse;
+  }
+  .contact-text{
+    max-width: 300px;
+    gap: 20px;
   }
 }
 @media(max-width:500px){

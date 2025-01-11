@@ -18,7 +18,7 @@ body {
 h1 {
   font-size: clamp(1.25rem, 0.114rem + 5.68vw, 4.375rem);
   font-weight: 800;
-  /* line-height: 87.58px; */
+  /* line-height: 78.58px; */
   letter-spacing: -0.03em;
 }
 h1 span {
@@ -276,18 +276,50 @@ p {
 
 /* PRODUCT */
 
-
 /* EVENT */
 
-.event-text{
+.event-text {
   display: flex;
   align-items: center;
   justify-content: end;
   margin-inline-start: auto;
   gap: 30px;
-  p{
+  p {
     max-width: 600px;
-    line-height: 30px;
+    line-height: 25px;
   }
 }
 /* EVENT */
+
+/* CONTACT */
+#contact {
+  padding-block: 30px;
+}
+.contact {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+.contact-text {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  max-width: 500px;
+  p {
+    max-width: 460px;
+    padding-bottom: 10px;
+  }
+}
+.conicon {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  a {
+    font-size: clamp(1.563rem, 1.222rem + 1.7vw, 2.5rem);
+  }
+}
+.contact-image img {
+  width: 100%;
+}
+
+/* CONTACT */
