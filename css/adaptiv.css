@@ -184,7 +184,8 @@ line-height: 20px;
 padding: 4px 40px;
   }
   .block{
-    height: 490px;
+    height: 480px;
+    gap: -10px;
   }
   .circleIm{
     bottom: 210px;
