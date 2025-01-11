@@ -3,6 +3,15 @@
     gap: 35px;
     max-width: 505px;
   }
+  .block{
+    height: 540px;
+    padding: 28px;
+  }
+}
+@media(max-width:800px){
+  .block{
+    height: 525px;
+  }
 }
 @media (max-width: 700px) {
   .cafe-text {
@@ -21,6 +30,24 @@
   .make-text{
     gap: 28px;
   }
+  .text-product {
+    gap: 50px;
+    p{
+line-height: 20px;
+  }
+}
+.block{
+  height: 515px;
+  padding: 25px;
+  gap: 5px;
+  p{
+    line-height: 25px;
+  }
+}
+.circleIm{
+  bottom: 230px;
+  left: -10px;
+}
 }
 @media (max-width: 610px) {
   .cafe-text {
@@ -45,6 +72,17 @@
   }
   .make-text{
     gap: 20px;
+  }
+  .block{
+    height: 500px;
+    gap: 3px;
+    button{
+      padding: 6px 36px;
+    }
+  }
+  .circleIm{
+    bottom: 225px;
+    left: -13px;
   }
 }
 
@@ -125,9 +163,31 @@
   .make-image img{
     width: 90%;
   }
+  .text-product{
+    flex-direction: column;
+    gap: 24px;
+   h1{
+    margin-inline-end:auto ;
+   }
+  }
+  .block{
+    height: 495px;
+    gap: 1px;
+  }
+  .circleIm{
+    bottom: 210px;
+    left: -13px;
+  }
 }
 @media(max-width:500px){
   button{
 padding: 4px 40px;
+  }
+  .block{
+    height: 490px;
+  }
+  .circleIm{
+    bottom: 210px;
+    left: -13px;
   }
 }
